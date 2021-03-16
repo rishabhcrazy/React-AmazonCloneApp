@@ -8,9 +8,13 @@ function Header() {
             <img 
             className= 'header_logo'
             src = 'http://pngimg.com/uploads/amazon/amazon_PNG11.png'
+            alt='Amazon Logo'
             />
             <div className = 'header_search' >
-                <input className = 'header_searchInput' type= 'text'/>
+                <input 
+                className = 'header_searchInput' 
+                type= 'text'
+                />
                 <SearchIcon className = 'header_searchIcon'/>
             </div>
             <div className = 'header_nav'>
